@@ -1,0 +1,7 @@
+
+#!/usr/bin/env bash
+
+set -e
+
+docker build -t jkonalegi/arm64v8_elasticsearch:latest .
+docker push jkonalegi/arm64v8_elasticsearch:latest
